@@ -148,9 +148,9 @@ namespace My8GadgetPackIconChanger {
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
 			this->label4->ForeColor = System::Drawing::SystemColors::HotTrack;
-			this->label4->Location = System::Drawing::Point(12, 301);
+			this->label4->Location = System::Drawing::Point(143, 301);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(352, 25);
+			this->label4->Size = System::Drawing::Size(94, 25);
 			this->label4->TabIndex = 7;
 			this->label4->Text = L"www.lumito.net";
 			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
