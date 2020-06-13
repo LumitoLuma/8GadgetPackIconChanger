@@ -16,4 +16,4 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
     - name: Build
-      run: msbuild -m -p:Configuration=Release
+      run: msbuild 8GadgetPackIconChanger.sln -m -p:Configuration=Release
