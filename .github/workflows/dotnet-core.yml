@@ -18,6 +18,6 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Build
-      run: msbuild -m -p:Configuration=Release
+      run: msbuild -p:Configuration=Release
     - name: Test
       run: dotnet test --no-restore --verbosity normal
