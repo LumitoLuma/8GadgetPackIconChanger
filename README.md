@@ -23,7 +23,7 @@ Just follow this easy and quick steps:
 
 ## Installing compiled version
 
-**You can download 8GadgetPack Icon Changer through my downloads page using [this link](https://dl.lumito.net/public/repos/8GadgetPackIconChanger).**
+**You can download 8GadgetPack Icon Changer through [this link](https://dl.lumito.net/public/repos/8GadgetPackIconChanger/1.0/8GadgetPackIconChanger.exe).**
 
 ## FAQ
 
