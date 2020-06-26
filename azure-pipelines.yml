@@ -1,0 +1,14 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+
+- task: MSBuild@1
+  inputs:
+    solution: '8GadgetPackIconChanger.sln'
+    platform: 'Win32'
+    configuration: 'Release'
+    msbuildArguments: '/m'
