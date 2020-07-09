@@ -20,10 +20,10 @@ Building 8GadgetPack is easy, you'll only need to have **Visual Studio 2019 inst
 
 Just follow this easy and quick steps:
 
-1. Download or `git clone` this repository.
-2. Open Visual Studio 2019 Developer Command Prompt and `cd` to the directory with the extracted files.
-3. Run `msbuild /m /p:Configuration=Release /p:Platform=Win32` and wait a few seconds.
-4. Done! Check for 8GadgetPackIconChanger.exe in bin\release directory.
+1.  Download or `git clone` this repository.
+2.  Open Visual Studio 2019 Developer Command Prompt and `cd` to the directory with the extracted files.
+3.  Run `msbuild /m /p:Configuration=Release /p:Platform=Win32` and wait a few seconds.
+4.  Done! Check for 8GadgetPackIconChanger.exe in bin\release directory.
 
 ## Installing compiled version
 
@@ -31,15 +31,15 @@ Please visit [lumitoluma.github.io/8GadgetPackIconChanger](https://lumitoluma.gi
 
 ## FAQ
 
-- Is 8GadgetPack Icon Changer safe?
+-   Is 8GadgetPack Icon Changer safe?
 
    ► Sure. It has been scanned with various anti-malware software and the application is 100% safe.
    
-- How can I change the default 8GadgetPack's icon with Windows 7's one?
+-   How can I change the default 8GadgetPack's icon with Windows 7's one?
 
    ► You just need to download 8GadgetPack Icon Changer and click on the 'install' button.
    
-- How can I revert the Windows 7's gadget icon to 8GadgetPack's default one?
+-   How can I revert the Windows 7's gadget icon to 8GadgetPack's default one?
 
    ► Just open 8GadgetPack Icon Changer again and mark the uninstallation option and finally, click on the 'uninstall' button.
    
@@ -49,8 +49,8 @@ If you want to contribute to the project, please contact me through [lumito.net/
 
 You can contribute with the following things:
 
-- Code improvements
-- Ideas for future programs / services.
+-   Code improvements
+-   Ideas for future programs / services.
 
 Reporting bugs there is not allowed, unless you have reported them through [Issues](https://github.com/LumitoLuma/8GadgetPackIconChanger/issues) tab and you have not received any comments for a while (minimum a week).
 
