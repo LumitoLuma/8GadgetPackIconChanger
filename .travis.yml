@@ -9,5 +9,5 @@ install:
   - dotnet restore
 script:
   - export PATH=$MSBUILD_PATH:$PATH
-  - "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Build\Auxiliary\vcvars32.bat"
+  - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Build\\Auxiliary\\vcvars32.bat"
   - MSBuild.exe 8GadgetPackIconChanger.sln -m -p:Configuration=Release -p:Platform=Win32
