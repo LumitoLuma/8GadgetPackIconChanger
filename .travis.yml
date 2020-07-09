@@ -1,5 +1,6 @@
 language: csharp
 solution: 8GadgetPackIconChanger.sln
 os: windows
+mono: none
 script:
-  - msbuild /p:Configuration=Release /p:Platform=Win32
+  - msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
