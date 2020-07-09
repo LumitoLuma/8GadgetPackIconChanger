@@ -5,9 +5,7 @@ env:
   - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
 install:
   - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
-  - choco install dotnetcore-sdk
-  - dotnet restore
 script:
   - export PATH=$MSBUILD_PATH:$PATH
-  - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\Build\\vcvars32.bat"
+  - dir /s "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\*.bat"
   - MSBuild.exe 8GadgetPackIconChanger.sln -m -p:Configuration=Release -p:Platform=Win32
