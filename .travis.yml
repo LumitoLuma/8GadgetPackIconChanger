@@ -1,5 +1,5 @@
-language: cpp
+language: csharp
 solution: 8GadgetPackIconChanger
 - mono: latest
 script:
-  - msbuild /m /p:Configuration=Release /p:Platform=Win32
+  - msbuild /p:Configuration=Release /p:Platform=Win32
