@@ -4,7 +4,9 @@ solution: 8GadgetPackIconChanger.sln
 env:
   - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
 install:
-  - choco install visualstudio2019 -y --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+  - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+  - choco install dotnetcore-sdk
+  - dotnet restore
 script:
   - export PATH=$MSBUILD_PATH:$PATH
   - msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
