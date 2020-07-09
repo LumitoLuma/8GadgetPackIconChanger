@@ -2,7 +2,7 @@ os: windows
 language: cpp
 solution: 8GadgetPackIconChanger.sln
 env:
-  - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
+  - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
 install:
   - choco install visualstudio2019 -y --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
 script:
