@@ -33,15 +33,15 @@ Please visit [lumitoluma.github.io/8GadgetPackIconChanger](https://lumitoluma.gi
 
 -   Is 8GadgetPack Icon Changer safe?
 
-   ► Sure. It has been scanned with various anti-malware software and the application is 100% safe.
+   ►  Sure. It has been scanned with various anti-malware software and the application is 100% safe.
    
 -   How can I change the default 8GadgetPack's icon with Windows 7's one?
 
-   ► You just need to download 8GadgetPack Icon Changer and click on the 'install' button.
+   ►  You just need to download 8GadgetPack Icon Changer and click on the 'install' button.
    
 -   How can I revert the Windows 7's gadget icon to 8GadgetPack's default one?
 
-   ► Just open 8GadgetPack Icon Changer again and mark the uninstallation option and finally, click on the 'uninstall' button.
+   ►  Just open 8GadgetPack Icon Changer again and mark the uninstallation option and finally, click on the 'uninstall' button.
    
 ## Contributing to the project
  
