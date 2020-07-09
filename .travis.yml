@@ -1,0 +1,5 @@
+language: cpp
+solution: 8GadgetPackIconChanger
+
+script:
+  - msbuild /m /p:Configuration=Release /p:Platform=Win32
