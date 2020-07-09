@@ -1,5 +1,5 @@
 language: cpp
 solution: 8GadgetPackIconChanger.sln
-os: windows
+os: windows-latest
 script:
   - msbuild /p:Configuration=Release /p:Platform=Win32
