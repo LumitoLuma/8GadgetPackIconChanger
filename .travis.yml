@@ -9,4 +9,4 @@ install:
   - dotnet restore
 script:
   - export PATH=$MSBUILD_PATH:$PATH
-  - MSBuild.exe 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
+  - MSBuild.exe 8GadgetPackIconChanger.sln -m -p:Configuration=Release -p:Platform=Win32
