@@ -1,4 +1,4 @@
-language: cpp
+language: csharp
 solution: 8GadgetPackIconChanger.sln
 os: windows
 script:
