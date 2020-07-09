@@ -38,7 +38,7 @@ Please visit [lumitoluma.github.io/8GadgetPackIconChanger](https://lumitoluma.gi
 -   How can I change the default 8GadgetPack's icon with Windows 7's one?
 
     ►  You just need to download 8GadgetPack Icon Changer and click on the 'install' button.
- 
+
 -   How can I revert the Windows 7's gadget icon to 8GadgetPack's default one?
 
     ► Just open 8GadgetPack Icon Changer again and mark the uninstallation option and finally, click on the 'uninstall' button.
