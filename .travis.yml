@@ -1,6 +1,10 @@
-language: csharp
-solution: 8GadgetPackIconChanger.sln
 os: windows
-mono: none
+language: cpp
+solution: 8GadgetPackIconChanger.sln
+env:
+  - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
+install:
+  - choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+  - choco install dotnetcore-sdk
 script:
   - msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
