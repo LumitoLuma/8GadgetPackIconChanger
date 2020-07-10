@@ -64,5 +64,4 @@ Thanks a lot to Helmut Buhler for offering 8GadgetPack and maintaining it's webs
 
 © 2020, Lumito
 
----
-Visit my website: [www.lumito.net](https://lumito.net)
+**Visit my website: [www.lumito.net](https://lumito.net)**
