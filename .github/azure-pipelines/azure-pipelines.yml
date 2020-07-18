@@ -1,21 +1,23 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+jobs:
+- job: Windows
 
-steps:
+  pool:
+    vmImage: 'windows-latest'
 
-- task: MSBuild@1
-  inputs:
-    solution: '8GadgetPackIconChanger.sln'
-    platform: 'Win32'
-    configuration: 'Release'
-    msbuildArguments: '/m'
+  steps:
+  - task: MSBuild@1
+    inputs:
+      solution: '8GadgetPackIconChanger.sln'
+      platform: 'Win32'
+      configuration: 'Release'
+      msbuildArguments: '/m'
 
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Pipeline.Workspace)\s\Release\'
-    artifact: '8GadgetPackIconChanger Release directory'
-    publishLocation: 'pipeline'
-  displayName: 'Publish Pipeline Artifacts'
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: '$(Pipeline.Workspace)\s\Release\'
+      artifact: '8GadgetPackIconChanger Release directory'
+      publishLocation: 'pipeline'
+    displayName: 'Publish Pipeline Artifacts'
