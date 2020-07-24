@@ -40,7 +40,7 @@ Please visit [lumitoluma.github.io/8GadgetPackIconChanger](https://lumitoluma.gi
     ► Just open 8GadgetPack Icon Changer again and mark the uninstallation option and finally, click on the 'uninstall' button.
 
 ## Contributing to the project
-If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact).
+If you want to contribute to the project, please contact me through [lumito.net/contact](https://lumito.net/contact) or open a Pull Request.
 
 You can contribute with the following things:
 
