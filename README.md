@@ -23,7 +23,13 @@ Just follow this easy and quick steps:
 
 1.  Download or `git clone` this repository.
 2.  Open Visual Studio 2019 Developer Command Prompt and `cd` to the directory with the extracted files.
-3.  Run `msbuild /m /p:Configuration=Release /p:Platform=Win32` and wait a few seconds.
+3.  Run:
+
+    ```batch
+    msbuild /m /p:Configuration=Release /p:Platform=Win32
+    ```
+
+    and wait a few seconds.
 4.  Done! Check for 8GadgetPackIconChanger.exe in bin\release directory.
 
 ## Installing compiled version
