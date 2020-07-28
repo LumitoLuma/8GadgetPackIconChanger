@@ -15,14 +15,14 @@ If you like the new style, then you do not need to download this tool, but if yo
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [![C++ MSBuild](https://github.com/LumitoLuma/8GadgetPackIconChanger/workflows/C++%20MSBuild/badge.svg)](https://github.com/LumitoLuma/8GadgetPackIconChanger/actions?query=workflow%3A"C%2B%2B+MSBuild") | [![Build status](https://ci.appveyor.com/api/projects/status/1f0lywkbg8m8m5pt?svg=true)](https://ci.appveyor.com/project/LumitoLuma/8GadgetPackIconChanger) | [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.8GadgetPackIconChanger?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=7&branchName=master) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0c98824bd9594fc3a302299a218fc14a)](https://www.codacy.com/manual/LumitoLuma/8GadgetPackIconChanger?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/8GadgetPackIconChanger&amp;utm_campaign=Badge_Grade) |
 
-
-
 Building 8GadgetPack is easy, you'll only need to have **Visual Studio 2019 installed with .NET and Visual C++ support**.
 
 Just follow this easy and quick steps:
 
 1.  Download or `git clone` this repository.
+
 2.  Open Visual Studio 2019 Developer Command Prompt and `cd` to the directory with the extracted files.
+
 3.  Run:
 
     ```batch
@@ -30,6 +30,7 @@ Just follow this easy and quick steps:
     ```
 
     and wait a few seconds.
+
 4.  Done! Check for 8GadgetPackIconChanger.exe in bin\release directory.
 
 ## Installing compiled version
