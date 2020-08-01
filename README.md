@@ -65,7 +65,5 @@ Thanks a lot to Helmut Buhler for offering 8GadgetPack and maintaining it's webs
 
 ## Copyrights
 © 2012 - 2020, Helmut Buhler
-
-© 2020, Lumito
-
-**Visit my website: [www.lumito.net](https://lumito.net)**
+<br><br>
+**© 2020, Lumito - [www.lumito.net](https://lumito.net)**
