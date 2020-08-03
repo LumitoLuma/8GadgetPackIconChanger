@@ -26,7 +26,7 @@ Just follow this easy and quick steps:
 3.  Run:
 
     ```batch
-    msbuild /m /p:Configuration=Release /p:Platform=Win32
+    msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
     ```
 
     and wait a few seconds.
