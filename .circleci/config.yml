@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - checkout
-      - run: msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform="Any CPU"
+      - run: msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
