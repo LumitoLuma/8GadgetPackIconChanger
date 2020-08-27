@@ -9,4 +9,6 @@ jobs:
 
     steps:
       - checkout
-      - run: msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
+      - run:
+          name: Building 8GadgetPack Icon Changer using MSBuild
+          command: msbuild 8GadgetPackIconChanger.sln /m /p:Configuration=Release /p:Platform=Win32
