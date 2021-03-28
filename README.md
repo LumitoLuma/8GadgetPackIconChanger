@@ -1,6 +1,8 @@
 # 8GadgetPack Icon Changer
 Change the 8GadgetPack's context menu icon to Windows 7's one.
 
+### WARNING: This software is deprecated and (probably) no longer maintained.
+
 ## About 8GadgetPack Icon Changer
 You may know what 8GadgetPack is (a tool that brings Windows 7 gadgets to Windows 8 and 10). Installation is quick and easy and having this program installed is very useful (and geeky).
 
